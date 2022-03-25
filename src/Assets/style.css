@@ -1,7 +1,8 @@
 .side-bar {
     height: 100% !important;
-    width: auto;
+    width: 90px;
     position:fixed;
+    z-index: 4;
     display: flex;
     left: 0;
     top: 0;
@@ -10,6 +11,23 @@
     border-radius: 0px 20px 20px 0px;
     border-color: rgba(82, 72, 228, 0.657);
     background-color: rgb(61,62,82);
+    transition: 0.8s ease;
+}
+
+.create-modal {
+    height: 100% !important;
+    width: -500px;
+    position:fixed;
+    z-index: 1;
+    transform: translateX(-100%);
+    /* display: flex; */
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    border-right: 1px solid;
+    border-radius: 0px 20px 20px 0px;
+    border-color: rgba(72, 228, 163, 0.657);
+    background-color: rgb(61,62,82);;
     transition: 0.8s ease;
 }
 
@@ -79,6 +97,14 @@ body{
     padding: 1rem;
 }
 
+.viewModal{
+    color: aliceblue;
+}
+
+.main-body{
+    padding: 10%;
+}
+
 .toggle-menu {
     height: 50px;
     border-top-right-radius: 10rem;
@@ -91,3 +117,4 @@ body{
     border-color: rgba(64, 194, 133, 0.693);
     border-left: 0;
 }
+
