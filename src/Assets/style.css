@@ -1,0 +1,93 @@
+.side-bar {
+    height: 100% !important;
+    width: auto;
+    position:fixed;
+    display: flex;
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    border-right: 1px solid;
+    border-radius: 0px 20px 20px 0px;
+    border-color: rgba(82, 72, 228, 0.657);
+    background-color: rgb(61,62,82);
+    transition: 0.8s ease;
+}
+
+body{
+    background-color: rgb(39,40,53);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.home-icon-section{
+    min-height: 50%;
+    justify-items: center;
+}
+
+.side-menu-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* top: 0;; */
+    min-height: 25%;
+    background-color: #793bb6;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.home-icon-section .side-menu-up span{
+    color: aliceblue;
+    text-align: center;
+}
+/* 
+.side-menu-down{
+
+} */
+
+.side-menu-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    height: 100%;
+    /* background-color: black; */
+    
+}
+
+.menu-1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 20%;
+}
+
+.menu-2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.intersection-line{
+    width: 100%;
+}
+
+.user-logo{
+    padding: 1rem;
+}
+
+.toggle-menu {
+    height: 50px;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 9rem;
+    width: 10px;
+    position: absolute;
+    outline: none;
+    z-index: 1;
+    background-color: rgba(64, 194, 133, 0.693);
+    border-color: rgba(64, 194, 133, 0.693);
+    border-left: 0;
+}
